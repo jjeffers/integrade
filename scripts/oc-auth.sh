@@ -1,9 +1,9 @@
 #!/bin/bash
 
 if [[ ${OPENSHIFT_PREFIX}:-} ]]; then
-    CONTAINER_NAME="${OPENSHIFT_PREFIX}cloudigrade-api"
+    CONTAINER_NAME="${OPENSHIFT_PREFIX}c-a"
 else
-    CONTAINER_NAME="cloudigrade-api"
+    CONTAINER_NAME="c-a"
 fi
 
 # we print out just the first running pod, which
